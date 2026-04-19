@@ -1,0 +1,4 @@
+﻿title: "Alpha: TD Countdown (13-bar)"
+theme: minima
+plugins:
+  - jekyll-seo-tag
