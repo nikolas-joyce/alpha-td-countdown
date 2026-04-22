@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '.github/workflows/daily_signals.yml'
+      - 'notebooks/alpha_td_countdown.ipynb'
   schedule:
     - cron: '0 22 * * 1-5'   # 22:00 UTC = ~6pm ET, weekdays
   workflow_dispatch:
